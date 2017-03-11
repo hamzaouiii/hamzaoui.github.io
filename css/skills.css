@@ -1,0 +1,113 @@
+.skills
+{
+	    width: 100%;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    min-height: 682px; 
+    padding-bottom: 50px;
+    font-color: black;
+    font-family: 'corbel';
+}
+
+.skills .container p {padding-top: 60px;}
+.skills .container a 
+{
+        border: 2px solid #222;
+        padding: 8px;
+        text-decoration: none;
+        color: #222;
+        margin-top: 10px;
+        transition: 0.5s;
+        border-radius: 3px;
+}
+
+.skills .container a:hover {background-color: #222;
+    color:white;}
+.skills .container
+{
+    padding-top: 130px;
+}
+.skills .row .col-lg-6 li 
+{
+    list-style: none;
+    border-radius: 100px;
+    color: white;
+    background-color: #222;
+    border: 2px solid #222;
+    width: 100px;
+    height: 100px;
+    padding-top: 7%;
+    margin: 10px;
+    display: inline-block;
+    font-family: "ubuntu";
+    text-align: center;
+        transition: 1.5s;}/*
+        animation-timing-function: ease-in-out;
+        animation-name: skills;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        }
+     @keyframes skills 
+{
+  0% {
+border-radius: 100px;
+  }
+  25% {
+border-radius: 50px;
+  }
+  50% {
+    border-radius: 5px;
+  }
+  75% {
+border-radius: 50px;  }
+  100% {
+    border-radius: 100px;
+  }
+}   */
+
+.skills .row .col-lg-6 li:hover
+{
+    background-color: white;
+    color:#222;
+    border: 2px solid #222;
+}
+
+.skills .row .col-md-6 li:hover
+{
+    background-color: white;
+    color:#222;
+    border: 2px solid #222;
+}
+
+
+.skills .row .col-lg-6
+{
+
+    text-align: center;
+}
+.skills .row .col-lg-6 ul
+{
+    text-align: center;
+}
+.skills .row .col-md-6
+{
+    width: 100%;
+}
+.skills .row .col-md-6 li span {font-family:'Calibri';font-size: 12px;}
+.skills .row .col-md-6 li
+{
+    font-family: "ubuntu";
+    font-size: 20px;
+    display: inline-block;
+    height: 80px;
+    width: 200px;
+    border: 2px solid;
+    background-color:#222;
+    color: white;
+    padding-top: 1%;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 1.5s;
+    
+        }

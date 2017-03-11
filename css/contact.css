@@ -1,0 +1,45 @@
+
+.form h1{  color:#222; font-family: 'century gothic', sans-serif;}
+.form {
+  position: relative;
+  padding-top: 130px;
+  width: 100%;
+  min-height: 682px; 
+  background-color: white;
+  color: white;
+}
+
+.form input, .form textarea
+{
+	width: 100%;
+	border-bottom: 2px solid #222;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0px;
+	font-size: 14px;
+	font-family: "ubuntu";
+	color: #222;
+}
+
+.form input:active{	border-bottom: 2px solid #222;}
+.form button
+{
+	background-color: #222;
+	border: 2px solid #222;
+	transition:1s ease-in;
+}
+
+.form button:hover
+{
+	background-color: white;
+	color: #222;
+	border-color: #222;
+}
+
+.form p
+{
+	font-family: "ubuntu";
+	font-size: 14px;
+	color: #222;
+}

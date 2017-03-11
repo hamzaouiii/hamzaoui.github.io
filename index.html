@@ -1,0 +1,366 @@
+<html>
+
+<head>
+<title>Simo Hamzaoui - interactive resume</title>
+
+  <!--style-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/scrolling-nav.css">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
+  <link rel="stylesheet" type="text/css" href="css/timeline.css">
+  <link rel="stylesheet" type="text/css" href="css/works.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <link rel="stylesheet" type="text/css" href="css/skills.css">
+    
+   <!--Meta tags-->
+  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="author" content="Simo Hamzaoui">
+ 
+  <!-- Latest compiled and minified CSS -bootstrap- -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- Latest compiled and minified JavaScript -bootstrap- -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!--angluar-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+   <!--Jquery-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+</head>
+
+<body onLoad="fade()">
+  
+ <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#start" id="home"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav" id="nav_ul">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li>
+                        <a class="page-scroll" href="#start">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#timeline">Timeline</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#skills">Competences</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#works">Works</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+<div class="start" id="start"> 
+<div class="svg-wrapper" id="start" >
+      <svg  xmlns="http://www.w3.org/2000/svg">
+        <rect class="shape" height="80" width="440" />
+        <div class="text" ><h1>Simo Hamzaoui</h1></div>
+      </svg>
+    </div>
+    <a class="page-scroll" href="#about"><img src="img/down.svg" id="button" ></a> 
+  </div>
+
+ <div class="about" id="about">
+  
+   <div class="intro_info">
+      <h1>Profile</h1>
+       <blockquote> We are all now connected by the Internet, like neurons in a giant brain. <br>
+       - Stephen Hawking 
+      </blockquote>
+    
+   </div>
+  <div class="container">
+  <div class="row">
+    <div class="col-md-4">
+    <h2>About me and this page</h2>
+    <p>I am a Junior frontend developper with a very good knowledge of backend programming languages and framworks, this page was buildt using raw CSS3 as well as bootstrap for styling and HTML5 for markup and content, in addition to JQuery and a tiny bit of angular JS</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="img/face.jpg">
+    </div>
+    <div class="col-sm-4">
+      <h2>Personal Details</h2>
+      <h5><strong>Name:</strong><br>Simo Hamzaoui</h5>
+      <h5><strong>Age:</strong><br>23 years</h5>
+      <h5><strong>Adresse:</strong><br>Rostock, Germany</h5>
+    </div>
+  </div>
+  </div>
+  <a class="page-scroll" href="#timeline">Timeline</a>
+</div>
+
+<div class="experience" id="timeline">
+  <h1>Education</h1>
+  <section class="timeline">
+  <ul>
+    <li>
+      <div>
+        <time>2011</time>
+        <h3>High school</h3><h4>Lycee Moulay Ismael, Al hoceima</h4>
+        I graduated high school in my hometown back in 2011. The education was mainly science based, but I also enjoyed learning French and western Literature.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2011-2013</time>
+        <h3>Degree of Technology</h3><h4>The National School Of Applied Science, Al-Hoceima</h4>
+        I learned for the first time that machines are not intelligent, or at least not yet. All the intelligence a machine has is basically what programmers instruct it to do. Although the education was computer-science-based in general and nothing specific, I have majored in three subjects: C++, Assembly x86 and Algorithmics. 
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2014</time> 
+        <h3>Bachlor in system administration</h3> <h4>University of Mohammed V, Rabat</h4>
+          In 2014 I moved to the capital of Morocco, Rabat. I studied system administration in the best unvesity in the country. The education system was OS and security oriented, but also here I learned about the importance of OOP and how revolutionary that term is.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2015</time> <h3>Professional bachelor in Computer-science education. </h3> <h4>Ecole Normale Superieur, Marrakech</h4>
+        After getting my bachlor, I decided to become an IT high school teacher. Therefore, I joined the ENS of Marrackech, a Moroccan version of the infamous ENS de Paris.
+        After the end of the two semisters I had for some personal reasons I could not stay in Morocco any longer and had to move to Germany.  
+      </div>
+    </li>
+    
+  </ul>
+  </section>
+<h1>Experience</h1>
+  <section class="timeline">
+  <ul>
+    <li>
+      <div>
+        <time>June 2014 - August 2014 </time>
+        <h3>Web Development Intern</h3> <h4>   Centre Regional D’investissement, Al Hoceima </h4>
+        Before ending my technolgy degree I had to do a three months internship which was part of the education programm. In there I learned for the first time to apply my knowledge of HTML and CSS as well as a little Javascript.       
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2016-current time</time><h3>Customer satisfaction/sales agent.</h3><h4>Sixt rent a car</h4>  
+        I know what you're thinking, what the hell?! right? just hold on, I can explain. I know that this a real different swap of career. This job is neither fun nor what I am passionate about. But I was kindof forced into this, Last year I moved to germany to a city where any job of any kind requiers a good level of the german speaking and sometimes even werting. This was the only chance I could have get so I did. To be really honest I do not regret it at all. I used it as a learning experience, understanding the way of thinking for European customers. 
+      </div>
+    </li>
+   
+    
+  </ul>
+  </section>
+
+</div> 
+
+<div class="skills" id="skills">
+              <div class="container">
+                 <h1>SKILLS</h1>
+                 <div class="row"> 
+                        <div class="col-lg-6">
+                          <h3>Programming and web Languages</h3>
+                          <ul>
+                            <script type="text/javascript">
+                            </script>
+                            <li class="box rotate">HTML5</li>
+                            <li>CSS3</li>
+                            <li>PHP</li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>C</li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-6">
+                          <h3>Platfrom/Framwork knowldege</h3>
+                          <ul >
+                            <li>Oracle 11g</li>
+                            <li>MySQL</li>
+                            <li>Angular JS</li>
+                            <li>JQuery</li>
+                            <li>Bootstrap</li>
+                            <li>Qt</li>
+                            <li>Git</li>
+                          </ul>
+                        </div>
+                          <div  class="col-lg-6">
+                          <h3>Software Knowledge</h3>
+                          <ul >
+                            <li>Photoshop</li>
+                            <li>Illustrator</li>
+                            <li>After Effects</li>
+                            <li>Sony Vegas</li>
+                          </ul>
+                        </div>
+                         <div  class="col-lg-6">
+                          <h3>OS knowldege</h3>
+                          <ul >
+                            <li>Windows</li>
+                            <li>Ubuntu</li>
+                            <li>Mac OS X</li>
+                            <li>Fedora</li>
+                        </div>
+                </div>
+                <p>You can see the style sheets and sciprts on Github</p>
+                <a href="https://github.com/hamzaouiii/my-personal-resume" target="_blank">See this template on Github</a>
+              </div>
+              <div class="container">
+                 <h1>Languages</h1>
+                 <div class="row"> 
+                        <div class="col-md-6">
+                          <ul>
+                            <li>English<br><span>Daily use</span></li>
+                            <li>French<br><span>Read, write and speak</span></li>
+                            <li>German<br><span>Good knowledge</span></li>
+                            <li>Arabic<br><span>Mother tongue</span></li>
+                            <li>Tamazight<br><span>Local langauge</span></li>
+                          </ul>
+                        </div>
+                </div>
+              </div>
+</div>
+
+
+<div id="works">
+  <h1>Some of my Work</h1>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-md-4">
+      <img src="img/1.png" class="img-responsive"  alt="Image">
+        <div class="overlay">
+    <div class="text"><h3>Project x</h3></div>
+  </div>
+    </div>
+    <div class="col-md-4"> 
+      <img src="img/2.png" class="img-responsive"  alt="Image">
+       <div class="overlay">
+    <div class="text"><h3>Project x</h3></div>
+  </div>
+    </div>
+    <div class="col-md-4"> 
+      <img src="img/3.png" class="img-responsive"  alt="Image">
+       <div class="overlay">
+    <div class="text"><h3>Project x</h3></div>
+  </div>
+    </div>
+    <div class="col-md-4">
+      <img src="img/4.png" class="img-responsive" alt="Image">
+       <div class="overlay">
+    <div class="text"><h3>Project x</h3></div>
+  </div>
+    </div>
+  </div>
+</div><br>
+
+</div>
+
+
+
+<div class ="form "id="contact">
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Send me a message</h1>
+                </div>
+            </div>
+              <div class="row" ng-app="">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating--form-group controls">
+                                Name
+                                <input type="text" class="form-control" ng-model="name" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating--form-group controls">
+                                Email Address
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating--form-group controls">
+                                Phone Number
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating--form-group controls">
+                                Message
+                                <textarea rows="5" class="form-control" ng-model="message" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                        <div class="form-group col-xs-12 floating--form-group controls">
+                 
+
+                        Your message looks like this: 
+                        <p class="help-block text-danger">Dear Simo,<br> {{message}}<br><br>Best Regards,<br>{{name}}</p>
+                        </div>
+                        </div>
+
+
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+      
+    </div>
+</div>
+
+  <footer>
+    <p>This Page can run Perfectly on all Major browsers and all devices</p>
+  </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <!-- Bootstrap Core JavaScript 
+    <script type="text/javascript">function fade () {
+ $('body').hide();
+     $('body').fadeIn(4000);
+}</script>-->
+
+</body>
+
+
+</html>
+
