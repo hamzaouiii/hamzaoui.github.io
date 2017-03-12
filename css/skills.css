@@ -42,30 +42,9 @@
     display: inline-block;
     font-family: "ubuntu";
     text-align: center;
-        transition: 1.5s;}/*
-        animation-timing-function: ease-in-out;
-        animation-name: skills;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-        }
-     @keyframes skills 
-{
-  0% {
-border-radius: 100px;
-  }
-  25% {
-border-radius: 50px;
-  }
-  50% {
-    border-radius: 5px;
-  }
-  75% {
-border-radius: 50px;  }
-  100% {
-    border-radius: 100px;
-  }
-}   */
-
+        transition: 1.5s;
+    }
+      
 .skills .row .col-lg-6 li:hover
 {
     background-color: white;

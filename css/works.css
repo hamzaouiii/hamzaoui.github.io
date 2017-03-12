@@ -58,4 +58,5 @@ background-color: rgba(2,2,2,0.6);
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+    -webkit-text-stroke: 0px;
 }

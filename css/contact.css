@@ -7,6 +7,7 @@
   min-height: 682px; 
   background-color: white;
   color: white;
+  padding-bottom: 80px;
 }
 
 .form input, .form textarea
@@ -35,6 +36,16 @@
 	background-color: white;
 	color: #222;
 	border-color: #222;
+}
+.form button:active
+{
+	background-color: #222;
+	border: 2px solid #222;
+}
+.form button:visited
+{
+	background-color: #222;
+	border: 2px solid #222;
 }
 
 .form p

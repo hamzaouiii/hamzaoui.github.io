@@ -108,7 +108,6 @@ transition: all 0.9s ease-in;
 {
   fill :;
 }
-/*media queries for the first page*/
 
 @media only screen and (max-width: 500px) {
      .svg-wrapper 
@@ -145,6 +144,16 @@ transition: all 0.9s ease-in;
        stroke-dasharray: 300;
           
       }
+      .about{padding-bottom: 50px;} 
+      .about a 
+      {
+        display: none;
+      }
+.skills .row .col-md-6 li
+{
+  padding-top: 10.5%;
+}
+
 }
 @media only screen and (max-width: 400px) {
 
