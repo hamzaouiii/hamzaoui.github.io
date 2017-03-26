@@ -21,11 +21,11 @@
     height: 100%;
     background: 
       linear-gradient(
-        rgba(0, 0, 0, 0.85), 
-        rgba(0, 0, 0, 0.75) 
+        rgba(0, 0, 0, 0.25), 
+        rgba(0, 0, 0, 0.35) 
     
       ),
-      url("http://i.imgur.com/MK1zJxZ.jpg") fixed no-repeat;
+      url("https://static.pexels.com/photos/197127/pexels-photo-197127.jpeg") fixed no-repeat;
       background-size: 100% 100%;
       position: relative;
       top: 0px;
@@ -108,6 +108,20 @@ transition: all 0.9s ease-in;
 }
 
 @media only screen and (max-width: 500px) {
+   .start
+  {
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.65), 
+        rgba(0, 0, 0, 0.35) 
+    
+      ),
+      url("http://i.imgur.com/QC1m1C3.jpg") fixed no-repeat;
+      background-size: 100% 100%;
+      position: relative;
+      top: 0px;
+      text-align: center;
+  }
      .svg-wrapper 
       {
             width: 400px;   
@@ -131,7 +145,7 @@ transition: all 0.9s ease-in;
             fill: transparent;
             stroke: white;     
             border-bottom: 5px solid black;     
-            transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;   
+            transition: stroke-width 0.5s, stroke-dashoffset 0.5s, stroke-dasharray 0.5s;   
       } 
 
       .svg-wrapper:hover .shape 
