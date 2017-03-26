@@ -33,3 +33,24 @@
 
 a:active{ text-decoration: none;}
 a:visited{ text-decoration: none;}
+
+@media(max-width:750px) {
+  #nav_ul li a:hover 
+{	
+	 
+	background-color: white;
+	border-radius: 3px;
+	color: #222;
+	-webkit-transition: background 0.2s ease-in;
+	-moz-transition: background 0.2s ease-in;
+	-ms-transition: background 0.2s ease-in;
+	-o-transition: background 0.2s ease-in;
+	transition: background 0.2s ease-in;	
+}
+#nav_ul li a
+{
+	display: inline-block;
+} 
+
+   
+} 

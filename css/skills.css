@@ -42,7 +42,7 @@
     display: inline-block;
     font-family: "ubuntu";
     text-align: center;
-        transition: 1.5s;
+        transition: 0.5s;
     }
       
 .skills .row .col-lg-6 li:hover
