@@ -47,9 +47,9 @@ a:visited{ text-decoration: none;}
 	-o-transition: background 0.2s ease-in;
 	transition: background 0.2s ease-in;	
 }
-#nav_ul li a
+#nav_ul li 
 {
-	display: inline-block;
+	text-align: center;
 } 
 
    
