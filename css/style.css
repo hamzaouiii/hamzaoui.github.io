@@ -53,7 +53,7 @@ stroke-width: 8px;
 fill: transparent;
 stroke: white;     
 border-bottom: 5px solid black;     
-transition: stroke-width 3s, stroke-dashoffset 3s, stroke-dasharray 3s;   
+transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;   
 } 
 
 .text 
@@ -70,9 +70,9 @@ transition: stroke-width 3s, stroke-dashoffset 3s, stroke-dasharray 3s;
 {
  color: white;
  -webkit-text-stroke: 1.9px black;
--webkit-transition: all 3s ease-in;
+-webkit-transition: all 1s ease-in;
 -moz-transition: all 0.9s ease-in;
--ms-transition: all 3s ease-in;
+-ms-transition: all 1s ease-in;
 -o-transition: all 0.9s ease-in;
 transition: all 0.9s ease-in;
  }
@@ -112,7 +112,7 @@ transition: all 0.9s ease-in;
   {
     background: 
       linear-gradient(
-        rgba(0, 0, 0, 0.65), 
+        rgba(0, 0, 0, 0.35), 
         rgba(0, 0, 0, 0.35) 
     
       ),
@@ -224,11 +224,7 @@ transition: all 0.9s ease-in;
             font-size: 30px; 
             padding-top: 13px;    
       }
-      }
-
-               
-
-
+      }          
 /**the second page**/
 .about
   {
