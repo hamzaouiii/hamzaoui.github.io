@@ -73,5 +73,6 @@
 .bx-container , .bx-thumbs{
 display: none;
 }
-
+.bx-overlay{
+    display: none;}
 }
