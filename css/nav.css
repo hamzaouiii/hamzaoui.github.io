@@ -9,7 +9,7 @@
 #nav_ul li 
 {	
 
-
+padding-bottom: 15px;
 
 }
 #nav_ul li a 
@@ -20,6 +20,7 @@
 }
 #nav_ul li a:hover 
 {	
+	padding-bottom: 5px;
 	border-bottom: 3px solid white; 
 	-webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
