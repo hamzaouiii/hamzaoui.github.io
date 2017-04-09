@@ -138,27 +138,19 @@ transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
       }
       .text h1 
       {
-            font-family: 'Mr Dafoe', sans-serif; 
+            font-family: 'ubuntu', sans-serif; 
             font-size: 38px; 
             padding-top: 13px;    
       }
-      .shape 
+    .shape 
       {     
-            stroke-dasharray: 100 560;
-            stroke-dashoffset: -200;     
-            stroke-width: 8px;     
-            fill: transparent;
-            stroke: white;     
-            border-bottom: 5px solid black;     
-            transition: stroke-width 0.5s, stroke-dashoffset 0.5s, stroke-dasharray 0.5s;   
+ 
+            stroke-width: 0px;     
+         
       } 
-
       .svg-wrapper:hover .shape 
       {
-       stroke: black;
-       stroke-width: 8px;
-       stroke-dashoffset: 120;
-       stroke-dasharray: 300;
+       stroke-width: 0px;
           
       }
 
@@ -203,25 +195,7 @@ transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
             font-size: 30px; 
             padding-top: 13px;    
       }
-      .shape 
-      {     
-            stroke-dasharray: 0 0;
-            stroke-dashoffset: 0;     
-            stroke-width: 0px;     
-            fill: transparent;
-            stroke: white;     
-            border-bottom: 5px solid black;     
-            transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;   
-      } 
 
-      .svg-wrapper:hover .shape 
-      {
-       stroke: black;
-       stroke-width: 0px;
-       stroke-dashoffset: 0;
-       stroke-dasharray: 0 0;
-          
-      }
       .text h1:hover { color: white; -webkit-text-stroke: 1.4px black;}
       h1{ font-size: 26px;}
       h2 {font-size: 16px;}
