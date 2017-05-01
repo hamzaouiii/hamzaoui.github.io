@@ -1,0 +1,55 @@
+.typewriter
+{
+ color: white;
+    font-family: "Ubuntu";
+}
+
+.typewriter h2 {
+  overflow: hidden; 
+  border-right: 3px solid white; 
+  white-space: nowrap; 
+  margin:0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    margin-bottom: 20px;
+  }
+  .typewriter h1 {
+    animation-delay: 8s;
+
+  overflow: hidden; 
+  border-right: 3px solid white; 
+  white-space: nowrap; 
+  margin:0 auto; 
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+
+  }
+.typewriter:hover{text-decoration: none;}
+.typewriter h3 {
+    animation-delay: 10s;
+    overflow: hidden; 
+    border-right: 3px solid white; 
+    white-space: nowrap; 
+    margin:10 auto; 
+    letter-spacing: .10em;
+     animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+ 
+    }
+
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%;}
+}
