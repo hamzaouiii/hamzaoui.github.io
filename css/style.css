@@ -21,7 +21,7 @@
         rgba(0, 0, 0, 0.75) 
     
       ),
-      url(../img/4.jpg) fixed no-repeat;
+      url(http://i.imgur.com/CW7vj9L.jpg) fixed no-repeat;
     background-size: 100% 100%;
     position: relative;
     top: 0px;
@@ -39,26 +39,8 @@
     transform: translateY(-50%);
     margin: auto;     
     width: 700px; 
+/*    border: 3px solid white;*/
   }   
-
-
-
-    
-.text h1 {font-family: 'ubuntu', sans-serif; font-size: 48px; }
-
-
-.svg-wrapper:hover .shape {
-    stroke: black;
-    stroke-width: 8px;
-    stroke-dashoffset: 100;
-    stroke-dasharray: 1150;
-    -webkit-transition: all 1.8s ease-in;
-    -moz-transition: all 1.8s ease-in;
-    -ms-transition: all 1.8s ease-in;
-     -o-transition: all 1.8s ease-in;
-    transition: all 1.8s ease-in;
-  }
-
   #button
   {
     width: 100px;
@@ -74,31 +56,35 @@
     z-index: 2;
   }
 
-
-@media only screen and (max-width: 1000px) {
-   .start
-  {
-    background: 
-      linear-gradient(
-        rgba(0, 0, 0, 0.65), 
-        rgba(0, 0, 0, 0.35) 
-    
-      ),
-      url(../img/4.jpg) fixed no-repeat;
-      background-size: 100% 100%;
-      position: relative;
-      top: 0px;
-      text-align: center;
-  }
-}
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 730px) {
+     .svg-wrapper 
+      {
+            width: 600px;   
+      }
+      .typewriter h1 {font-size: 35px; }
+     .typewriter h2 {font-size: 30px;  }
+     .typewriter h3 {font-size: 25px;  }
+   }
+@media only screen and (max-width: 620px) {
+     .svg-wrapper 
+      {
+            width: 500px;   
+      }
+        .typewriter h1 {font-size: 30px; }
+     .typewriter h2 {font-size: 25px;  }
+     .typewriter h3 {font-size: 20px;  }
+   }
+     
+@media only screen and (max-width: 520px) {
      .svg-wrapper 
       {
             width: 400px;   
       }
    
-
-      
+   .typewriter h1 {font-size: 25px; }
+     .typewriter h2 {font-size: 20px;  }
+     .typewriter h3 {font-size: 15px;  }
+   
       .about{padding-bottom: 50px;} 
       .about a 
       {
@@ -110,23 +96,26 @@
 }
 
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
 
  .svg-wrapper 
       {
-            width: 350px;   
+            width: 300px; 
       }
-   
-
+      .typewriter h1 {font-size: 18px; }
+     .typewriter h2 {font-size: 18px;  }
+     .typewriter h3 {font-size: 14px;  }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 320px) {
 
 .svg-wrapper 
       {
             width: 250px;   
       }
-     
+      .typewriter h1 {font-size: 15px; }
+     .typewriter h2 {font-size: 14px;  }
+     .typewriter h3 {font-size: 12px;  }
       }          
 /**the second page**/
 .about
