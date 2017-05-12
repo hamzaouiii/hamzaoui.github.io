@@ -9,7 +9,6 @@ nav
   	width: 100%;
   	font-size: 18px;
   	top:30;
-  	right:20;
   	z-index: 9;
 }
 
@@ -22,7 +21,7 @@ nav ul
 	position: absolute;
   	z-index: 2;
 margin-top: 60px;
-padding: 20px;
+padding-top: 20px;
 }
 nav ul li
 {
@@ -31,18 +30,21 @@ nav ul li
 	font-size:25px;
 	list-style:none;
 	width:100%;
-	left: 0;
-    right: 0;    
     margin: auto;
   background-color: rgba(0,0,0,0.9);
+     animation: 
+    showlist 3.5s ;
+right: -800px;
 
 }
-
-
-nav ul li a:hover{background-color: white; color:#222; text-decoration: none;} 
+nav ul li a:visited{ text-decoration: none; color: white; outline: 0;} 
+nav ul li a:link{ text-decoration: none; color: white; outline: 0;} 
+nav ul li a:hover{background-color: white; color:#222; text-decoration: none; ; outline: 0;} 
+nav ul li a:active{ text-decoration: none; color: #222 ; outline: 0;} 
+nav ul li a:focus{ text-decoration: none; color: #222; outline: 0;} 
+nav ul li a {   outline: 0;}
 nav ul li a 
 {
-	border: 2px solid white; 
 	border-bottom: none;
 	display: block;	
 	text-decoration: none;
@@ -64,11 +66,10 @@ margin-right: 58px;
   	display: inline-block;
 	width: 44px;
 	height: 40px;
-	background-color: rgba(255,255,255,0);
  cursor: pointer;
+ text-align: center;
 }
 
-.contactmen {border-bottom:2px solid white }
 
 
 nav a div .container {
@@ -76,19 +77,25 @@ nav a div .container {
     cursor: pointer;
     width: 40px;
     text-align: center;
+  background-color: rgba(255,255,255,0);
+
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
 }
 
 .bar1, .bar2, .bar3 {
-    width: 40px;
-    height: 7px;
-    background-color: white;
-    margin: 3px 0px;
-  	border-radius:50px;
+    width: 35px;
+    height: 5px;
+    background-color: #222;
+    margin: 6px;
     transition: 0.4s;
-    border: 2px solid #222;
+    border: 0.1px solid white;
+    border-radius: 5px;
 }
 .change .bar1 {
-    transform: rotate(-45deg) translate(-9px, 3px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
 .change .bar2 {
@@ -97,4 +104,10 @@ nav a div .container {
 
 .change .bar3 {
     transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+@keyframes showlist {
+  from {opacity: 0%}
+  to {opacity: 100%}
 }
