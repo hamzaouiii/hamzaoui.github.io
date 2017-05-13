@@ -2,7 +2,9 @@ $(document).ready(function(){
     
 $('#menu').click(function() {
 		$("nav ul").toggleClass("none");
-		$(".container").toggleClass("change")
+		$(".container").toggleClass("change");
+
+	//	$("nav ul").fadeToggle();
 		});
 
 
