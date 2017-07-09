@@ -1,16 +1,10 @@
 $(document).ready(function(){
     
-$('#menu').click(function() {
-		$("nav ul").toggleClass("none");
+	$('#menu').click(function() {
+
+		$("nav ul").toggleClass("none",500);
 		$(".container").toggleClass("change");
-
-	//	$("nav ul").fadeToggle();
 		});
-
-
-});
-
-
 
 
 $(document.body).click(function(e){
@@ -23,3 +17,10 @@ $(document.body).click(function(e){
 
 });
 
+$("nav ul li a").click(function(){
+ 
+	$("nav ul").addClass("none");
+	if ($(".container").hasClass("change")) {$(".container").removeClass("change")}
+
+});
+});

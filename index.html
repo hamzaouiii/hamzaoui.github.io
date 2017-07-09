@@ -30,11 +30,22 @@
   <!--Jquery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
+ <!-- Google Analytics-->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-102248020-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body>  
  <nav id="nav">
-<a id="menu">
+  <a id="menu">
   <div>
     <div class="container" >
       <div class="bar1"></div>
@@ -42,9 +53,15 @@
       <div class="bar3"></div>
     </div>
   </div>
-</a>
-
+  </a>
+ 
 <ul class="none">
+<a href="http://simohamzaoui.info">
+  <div class="brand">
+     <h1>SIMO</h1>
+     <h4>HAMZAOUI</h4>
+  </div>
+</a>
 <li class="home_menu"><a href="#start" class="page-scroll" >Home</a></li>
 <li class="about_menu"><a href="#about" class="page-scroll" >About</a></li>
 <li class="timeline_menu"><a href="#timeline" class="page-scroll" >Timeline</a></li>
@@ -57,8 +74,8 @@
     <div class="start" id="start">     
       <div class="svg-wrapper">
         <div class="typewriter" >
-          <h2>Hello!</h2>
-          <h1>My name is Simo Hamzaoui</h1>
+          <h1>Hello!</h1>
+          <h2>My name is Simo Hamzaoui</h2>
           <h3>and I am a web Developer</h3>
         </div>
       </div>
