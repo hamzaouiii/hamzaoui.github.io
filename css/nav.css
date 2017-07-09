@@ -34,7 +34,7 @@ nav ul
   left: 100px;
   padding:  10px;
   animation:
-  brand 1s;
+  brand .45s;
   transition: all 1s;
 }
 .brand:hover{cursor: pointer;background-color: black;border-radius: 5px;}
