@@ -4,13 +4,13 @@ This resume is hosted on Github pages and is accesible on http://simohamzaoui.in
 
 ## Getting Started
 
-This is a client side project. You do not need to install anything. Download or clone this repository and open index.html
-
+This is a client side project. You do not need to install anything. Just download or clone this repository and open index.html.
+In order for this project to be able to be hosted on Github pages, the content static instead of dynamic.
 
 ## Built With
 
-* [Bootstrap](http://getbootstrap.com/) - The web framework used
-* [Jquery](https://jquery.com/) - Dependency Management
+* [Bootstrap](http://getbootstrap.com/)
+* [Jquery](https://jquery.com/)
 
 
 ## License

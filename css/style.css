@@ -214,21 +214,12 @@ transition: all 400ms ease-in-out;
 
 footer
 {
-  bottom: 0px;
-  width: 100%;background-color: black;
-  height: 80px;
+  top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
   text-align: center;
 }
-footer li
-{
-  color: white;
-  font-family: "calibri";
-  font-size: 100%;
-  padding-top: 20px;
-  display: inline-block;
-  margin-left: 40px;
-  text-decoration: underline;
-}
+
 time {
   display: block;
   font-size: 1.2rem;
@@ -236,3 +227,13 @@ time {
   margin-bottom: 8px;
   font-family: "century gothic";
 }
+
+
+footer p
+{
+  font-family: "Raleway";
+  font-size: 18px;
+}
+
+.code{color: royalblue;}
+.heart{color: tomato;}

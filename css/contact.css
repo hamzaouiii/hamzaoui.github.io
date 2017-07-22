@@ -5,13 +5,27 @@
 	margin: 10px;
 }
 
-.contact .col-md-6
+.contact ul 
 {
-margin: 20px 0px;
-padding: 50px;
+	text-align: center;
+}	
+
+.contact ul li:hover > a{color: white;}
+.contact ul li:hover 
+{
+	background-color: #222;
+}
+.contact ul li
+{
+	margin: 20px 0px;
+	padding: 50px;
+	transition: .4s;
+	display: inline-block;
+	border-radius: 10px; 
+
 }
 
-.contact .col-md-6 a
+.contact  a
 {
 	text-decoration: none;
 	color: #222;
@@ -22,5 +36,12 @@ padding: 50px;
 .contact h1
 {
     padding-top: 130px;
+    text-align: center;
 	
+}
+
+.contact ul li a i
+{
+	margin: 15px;
+	font-size: 22px;
 }
