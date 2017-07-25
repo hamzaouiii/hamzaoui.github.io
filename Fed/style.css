@@ -17,12 +17,12 @@ nav{
 }
 nav ul{
 	padding-top: 20px;
-	border-bottom: 1px solid tomato;
+	border-bottom: 1px solid gold;
 	padding-bottom: 20px;
 	background-color: white;
 }
 nav ul li i {
-	color: royalblue;
+	color: gold;
 	cursor: pointer;
 }
 nav ul li {
@@ -32,14 +32,14 @@ nav ul li {
 	margin: 0px !important;
 }
 nav ul li:hover >i{
-	color: tomato	;
+	color: gold	;
 }
 
 
 .top i {color: white; margin-right: 10px;}
 .top 
 {
-	background-color:  tomato;
+	background-color:  gold;
 	padding: 10px; 
 }
 .top input
@@ -49,7 +49,7 @@ nav ul li:hover >i{
 	border-RIGHT: none;
 	border-left: none;
 	border-bottom: 2px solid white;
-	background-color:  tomato;
+	background-color:  gold;
 	height: 40px;
 	color: white;
 	font-family: "Raleway";
@@ -67,7 +67,7 @@ input:focus, textarea:focus, button:focus{    outline: none;}
 {
 	margin-top: 180px;
 	background-color: white;
-	height: 300px;
+	height: 360px;
 
 }
 section textarea
@@ -76,14 +76,15 @@ section textarea
 	max-width: 100%;
 	min-height: 200px;
 	border: none;
-	padding: 20px;	
+	padding-top: 100px;	
+	padding-left: 60px;	
 	font-size: 45px;
 	font-family: "Raleway";
 }
 section button
 {
-	width: 150px;
-	height: 35px;
+	width: 200px;
+	height: 60px;
 	background-color: gold;
 	border: none;
 	margin: 20px;
@@ -142,3 +143,16 @@ font-family: "Raleway";
  }
 
 
+body > a 
+{
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	height: 40px;
+	background-color: gold;
+	padding: 20px;
+	font-family: "Raleway";
+	font-size: 45px;
+	margin: 40px;
+}
