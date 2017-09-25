@@ -9,13 +9,13 @@
   .typewriter h1 {
 
     font-size: 40px;
-
-  overflow: hidden; 
-  border-right: 3px solid white; 
-  white-space: nowrap; 
-  margin:0 auto; 
-  letter-spacing: .15em;
-  animation: 
+    font-family: "Ubuntu";
+    overflow: hidden; 
+    border-right: 3px solid white; 
+    white-space: nowrap; 
+    margin:0 auto; 
+    letter-spacing: .15em;
+    animation: 
     typing 2s steps(40, end),
     blink-caret .75s step-end infinite;
 
