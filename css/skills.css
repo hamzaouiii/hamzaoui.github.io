@@ -11,9 +11,9 @@
 }
 
 .skills .container p {padding-top: 60px;}
-.skills .container a 
+.skills .container > a 
 {
-        border: 2px solid #222;
+        border: 1px solid #222;
         padding: 8px;
         text-decoration: none;
         color: #222;
@@ -22,8 +22,7 @@
         border-radius: 3px;
 }
 
-.skills .container a:hover {background-color: #222;
-    color:white;}
+.skills .container >a:hover {background-color: #222;   color:white;}
 .skills .container
 {
     padding-top: 130px;
@@ -34,7 +33,7 @@
     border-radius: 100px;
     color: white;
     background-color: #222;
-    border: 2px solid #222;
+    border: 1px solid #222;
     width: 100px;
     height: 100px;
     padding-top: 35px;
@@ -49,14 +48,14 @@
 {
     background-color: white;
     color:#222;
-    border: 2px solid #222;
+    border: 1px solid #222;
 }
 
 .skills .row .col-md-6 li:hover
 {
     background-color: white;
     color:#222;
-    border: 2px solid #222;
+    border: 1px solid #222;
 }
 
 
@@ -86,7 +85,7 @@
     color: white;
     margin: 10px;
     border-radius: 5px;
-     border: 2px solid #222;
+     border: 1px solid #222;
 }
 .language
 {
@@ -95,3 +94,14 @@
 }
 @media(max-width:750px) {
 }
+#vue,#webpack
+{
+    color: #222;
+    background-color: white;
+    transition: 0.5s;
+}
+
+#vue:hover{background-color: #3FB984; color: white;border-color: white;}
+#webpack:hover{background-color: #1C78C0;color: white ;border-color:white;}
+#vue >a ,#webpack >a
+{ color: #222; }
