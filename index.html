@@ -13,6 +13,7 @@
   <link rel="stylesheet" type="text/css" href="css/skills.css">
   <link rel="stylesheet" type="text/css" href="css/typing.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/loader.css">
     
    <!--Meta tags-->
   <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
@@ -47,7 +48,12 @@
 </head>
 
 <body>  
-
+<div id="loader" class="loader-container">
+    <div class="spinner">
+      
+    </div>
+      Loading things as fast as possible...<br>
+  </div>
  <nav id="nav">
 
   <a id="menu">
@@ -78,7 +84,7 @@
 
     <div class="start" id="start">     
       <div class="svg-wrapper">
-        <div class="typewriter" >
+        <div class="typewriter none" >
           <h1>Hello!</h1>
           <h2>My name is Simo Hamzaoui</h2>
           <h3>and I am a web Developer</h3>
@@ -109,7 +115,7 @@
     <div class="col-sm-4">
       <h2>Personal Details</h2>
       <h5><strong>Name:</strong><br>Simo Hamzaoui</h5>
-      <h5><strong>Age:</strong><br>23 years</h5>
+      <h5><strong>Age:</strong><br>24 years</h5>
       <h5><strong>Adresse:</strong><br>Rostock, Germany</h5>
     </div>
   </div>
@@ -187,8 +193,6 @@ Before ending my technology degree I had to do a three months internship which w
                         <div class="col-md-4">
                           <h3>Client side</h3>
                           <ul>
-                            <script type="text/javascript">
-                            </script>
                             <li>HTML5</li>
                             <li>CSS3</li>
                             <li>SASS</li>
@@ -201,7 +205,7 @@ Before ending my technology degree I had to do a three months internship which w
                         </div>
                         <div class="col-md-4">
                           <h3>Server side</h3>
-                          <ul >
+                          <ul>
                             <li>Oracle 11g</li>
                             <li>MySQL</li>
                             <li>PHP</li>
@@ -213,7 +217,7 @@ Before ending my technology degree I had to do a three months internship which w
                           </ul>
                         </div>
                           <div class="col-md-4">
-                          <h3>Tools and Techniques</h3>
+                          <h3>Tools</h3>
                           <ul >
                             <li>Git</li>
                             <li>nmp</li>
@@ -250,7 +254,7 @@ Before ending my technology degree I had to do a three months internship which w
                            </ul>
                         </div>
                 </div>
-                <p>You can see the files of this project on Github</p>
+                <p>You can see and clone the files of this project on Github</p>
                 <a href="https://github.com/hamzaouiii/hamzaoui.github.io" target="_blank">See this template on Github</a>
               </div>
               <div class="container">
@@ -346,7 +350,9 @@ Before ending my technology degree I had to do a three months internship which w
 
     
   </footer>
-
+<script language="javascript" type="text/javascript">
+    window.onload = function(){ document.getElementById("loader").style.display = "none" }   
+</script>
     <script src="js/nav.js"></script>
     <script src="js/script.js"></script>
     <script src="js/timeline.js"></script>

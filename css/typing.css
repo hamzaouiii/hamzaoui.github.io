@@ -1,6 +1,6 @@
 .typewriter
 {
- color: white;
+    color: white;
     font-family: "Ubuntu";
     font-size: 100%;
 }
@@ -16,7 +16,7 @@
   margin:0 auto; 
   letter-spacing: .15em;
   animation: 
-    typing 1.5s steps(40, end),
+    typing 2s steps(40, end),
     blink-caret .75s step-end infinite;
 
   }
@@ -28,7 +28,7 @@
     margin:0 auto; 
     letter-spacing: .15em; 
     animation: 
-    typing 2.0s steps(40, end),
+    typing 2.5s steps(40, end),
     blink-caret .75s step-end infinite;
     margin-bottom: 20px;
     font-size: 35px;

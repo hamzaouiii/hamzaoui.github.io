@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    
+	setTimeout(function() {  	$(".typewriter").removeClass("none"); }, 1000);
 	$('#menu').click(function() {
 
 		$("nav ul").toggleClass("none",500);
@@ -24,3 +24,4 @@ $("nav ul li a").click(function(){
 
 });
 });
+

@@ -132,7 +132,7 @@ html {
 .about
   {
     width: 100%;
-    min-height: 740px;
+    min-height: 100%;
     background-color: white;
     position: relative;
     text-align: center;
@@ -179,7 +179,6 @@ transition: all 400ms ease-in-out;
     width: 200px;
     height: 200px;
     border-radius: 200px;
-    border: 4px white solid;
     text-align: center;
     border-color: #222;
 
