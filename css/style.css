@@ -31,7 +31,7 @@ html {
         rgba(0, 0, 0, 0.75) 
     
       ),
-      url(http://i.imgur.com/CW7vj9L.jpg) fixed no-repeat;
+      url(../img/bg.jpeg) fixed no-repeat;
     background-size: 100% 100%;
     position: relative;
     top: 0px;
