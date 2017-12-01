@@ -1,5 +1,6 @@
- @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
 
 
 html {
@@ -141,7 +142,7 @@ html {
     position: relative;
     padding-top: 130px;
     text-align: center;
-    font-family: 'century gothic', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 36px;
   }
 #about a
@@ -195,7 +196,7 @@ transition: all 400ms ease-in-out;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    font-family: 'century gothic';
+    font-family: 'Dosis';
     font-size: 18px;
     text-align: left;  
   }
@@ -204,7 +205,7 @@ transition: all 400ms ease-in-out;
     width: 75%;
     margin-left: auto;
     margin-right: auto;    position: relative;
-    font-family: 'century gothic';
+    font-family: 'Dosis';
     font-size: 20px;
     text-align: left;
   }
@@ -223,7 +224,7 @@ time {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
-  font-family: "century gothic";
+  font-family: "Dosis";
 }
 
 

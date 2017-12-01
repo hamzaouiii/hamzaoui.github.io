@@ -6,8 +6,8 @@
     text-align: center;
     min-height: 682px; 
     padding-bottom: 50px;
-    font-color: black;
-    font-family: 'corbel';
+    color: black;
+    font-family: 'Dosis';
 }
 
 .skills .container p {padding-top: 60px;}
@@ -72,7 +72,7 @@
 {
     width: 100%;
 }
-.skills .row .col-md-6 li span {font-family:'Calibri';font-size: 12px; }
+.skills .row .col-md-6 li span {font-family:'Dosis';font-size: 12px; }
 .skills .row .col-md-6 li
 {
     font-family: "ubuntu";
