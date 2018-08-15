@@ -1,107 +1,85 @@
-.skills
-{
-	    width: 100%;
-    background-color: white;
-    position: relative;
-    text-align: center;
-    min-height: 682px; 
-    padding-bottom: 50px;
-    color: black;
-    font-family: 'Dosis';
+.skills {
+  width: 100%;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  min-height: 682px;
+  padding-bottom: 50px;
+  color: black;
+  font-family: "Dosis";
 }
 
-.skills .container p {padding-top: 60px;}
-.skills .container > a 
-{
-        border: 1px solid #222;
-        padding: 8px;
-        text-decoration: none;
-        color: #222;
-        margin-top: 10px;
-        transition: 0.5s;
-        border-radius: 3px;
+.skills .container p {
+  padding-top: 60px;
+}
+.skills .container > a {
+  border: 1px solid #222;
+  padding: 8px;
+  text-decoration: none;
+  color: #222;
+  margin-top: 10px;
+  transition: 0.5s;
+  border-radius: 3px;
 }
 
-.skills .container >a:hover {background-color: #222;   color:white;}
-.skills .container
-{
-    padding-top: 130px;
+.skills .container > a:hover {
+  background-color: #222;
+  color: white;
 }
-.skills .row .col-md-4 li 
-{
-    list-style: none;
-    border-radius: 100px;
-    color: white;
-    background-color: #222;
-    border: 1px solid #222;
-    width: 100px;
-    height: 100px;
-    padding-top: 35px;
-    margin: 10px;
-    display: inline-block;
-    font-family: "ubuntu";
-    text-align: center;
-        transition: 0.5s;
-    }
-      
-.skills .row .col-md-4 li:hover
-{
-    background-color: white;
-    color:#222;
-    border: 1px solid #222;
+.skills .container {
+  padding-top: 130px;
+}
+.skills .row .col-md-4 li {
+  list-style: none;
+  border-radius: 100px;
+  color: white;
+  background-color: #222;
+  border: 1px solid #222;
+  width: 100px;
+  height: 100px;
+  padding-top: 35px;
+  margin: 10px;
+  display: inline-block;
+  font-family: "ubuntu";
+  text-align: center;
+  transition: 0.5s;
 }
 
-.skills .row .col-md-6 li:hover
-{
-    background-color: white;
-    color:#222;
-    border: 1px solid #222;
+.skills .row .col-md-4 li:hover {
+  background-color: white;
+  color: #222;
+  border: 1px solid #222;
 }
 
-
-.skills .row .col-md-4
-{
-
-    text-align: center;
-}
-.skills .row .col-md-4 ul
-{
-    text-align: center;
-}
-.skills .row .col-md-6
-{
-    width: 100%;
-}
-.skills .row .col-md-6 li span {font-family:'Dosis';font-size: 12px; }
-.skills .row .col-md-6 li
-{
-    font-family: "ubuntu";
-    font-size: 20px;
-    list-style: none;
-    transition: 1.5s;
-      display: inline-block;
-    width: 200px;
-    background-color:#222;
-    color: white;
-    margin: 10px;
-    border-radius: 5px;
-     border: 1px solid #222;
-}
-.language
-{
-   
-    
-}
-@media(max-width:750px) {
-}
-#vue,#webpack
-{
-    color: #222;
-    background-color: white;
-    transition: 0.5s;
+.skills .row .col-md-6 li:hover {
+  background-color: white;
+  color: #222;
+  border: 1px solid #222;
 }
 
-#vue:hover{background-color: #3FB984; color: white;border-color: white;}
-#webpack:hover{background-color: #1C78C0;color: white ;border-color:white;}
-#vue >a ,#webpack >a
-{ color: #222; }
+.skills .row .col-md-4 {
+  text-align: center;
+}
+.skills .row .col-md-4 ul {
+  text-align: center;
+}
+.skills .row .col-md-6 {
+  width: 100%;
+}
+.skills .row .col-md-6 li span {
+  font-family: "Dosis";
+  font-size: 12px;
+}
+.skills .row .col-md-6 li {
+  font-family: "ubuntu";
+  font-size: 20px;
+  list-style: none;
+  transition: 1.5s;
+  display: inline-block;
+  width: 200px;
+  background-color: #222;
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #222;
+}
