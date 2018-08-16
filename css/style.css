@@ -235,7 +235,12 @@ footer p {
   width: 100%;
   height: auto;
 }
-
+.mouse g:hover {
+  fill: white;
+}
+g {
+  transition: all 0.3s;
+}
 .scroll {
   animation-name: scroll;
   animation-duration: 1.5s;
@@ -244,7 +249,9 @@ footer p {
   transform-origin: 50% 20.5px;
   will-change: transform;
 }
-
+g:hover circle {
+  fill: black;
+}
 .scroll-link {
   position: absolute;
   bottom: 1rem;
