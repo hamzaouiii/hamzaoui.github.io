@@ -156,7 +156,6 @@ body {
   height: 200px;
   border-radius: 200px;
   text-align: center;
-  border: 5px solid #222;
 }
 .about h2 {
   margin-bottom: 30px;
@@ -172,7 +171,6 @@ blockquote {
 .col-md-4 p {
   font-family: "Dosis";
   font-size: 18px;
-  text-align: left;
 }
 .col-sm-4 p {
   width: 75%;
